@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: OpenLawLibrary.TAF
+PackageVersion: 0.35.5
+InstallerType: portable
+Commands:
+  - taf
+ReleaseDate: 2025-09-02
+Installers:
+ - Architecture: x64
+   InstallerUrl: https://github.com/openlawlibrary/taf/releases/download/v0.35.5/taf-windows.exe
+   InstallerSha256: 474e07d9d36d68ca9973e50482954a73966f5a9d84d53ae916be0ee5772b07fc
+ManifestType: installer
+ManifestVersion: 1.10.0
